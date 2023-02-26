@@ -1,0 +1,109 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column wrap;
+    background-color: rgb(225,234,238);
+    text-align: center;
+    font-size: 20px;
+    font-weight: 900;
+}
+
+.table { background-color: rgb(11,83,148); }
+.space-around{ padding: 20px; }
+.table-header{ background-color: #6681bb; }
+.input-filter {
+    text-align: center;
+    justify-content: center;
+}
+.information { 
+    color: rgb(225,234,238) !important; 
+}
+
+.row-pair:hover {
+    background-color: rgb(56, 78, 107);
+    color: rgb(200, 200, 200);
+}
+.row-pair{
+    background-color: rgb(79,109,149);
+    -webkit-transition: all 0.25s;
+    -moz-transition: all 0.25s;
+    -o-transition: all 0.25s;
+    transition: all 0.25s;
+}
+.row-unpair:hover {
+    background-color: rgb(75, 110, 136);
+    color: rgb(200, 200, 200);
+}
+.row-unpair{
+    background-color: rgb(106,154,191);
+    -webkit-transition: all 0.25s;
+    -moz-transition: all 0.25s;
+    -o-transition: all 0.25s;
+    transition: all 0.25s;
+}
+
+
+button {
+    display: inline-block;
+    border-radius: 5px;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 10px;
+    font-size: 15px;
+    font-weight: 900;
+}
+
+.create:hover { background-color: rgb(98, 187, 107); }
+.create {
+    color: rgb(72, 141, 78);
+    background-color: rgb(150, 228, 155);
+    border: 4px double #77967a;
+}
+.details:hover { background-color: rgb(77, 201, 199); }
+.details {
+    color: rgb(58, 129, 128);
+    background-color: rgb(107,238,235);
+    border: 4px double #72c0ff;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.update:hover { background-color: rgb(196, 187, 108); }
+.update {
+    color: rgb(100, 95, 52);
+    background-color: rgb(240,230,140);
+    border: 4px double #cccccc;
+}
+.remove:hover { background-color: rgb(196, 82, 82); }
+.remove {
+    color: rgb(122, 56, 56);
+    background-color: rgb(224,102,102);
+    border: 4px double #ff7272;
+}
+.move:hover { background-color: rgb(71, 56, 138); }
+.move {
+    color: rgb(189, 180, 238);
+    background-color: rgb(124, 107, 201);
+    border: 4px double #b2aeff;
+}
+.paging:hover { background-color: rgb(24, 87, 224); }
+.paging {
+    color: rgb(166, 213, 228);
+    background-color: rgb(111, 148, 228);
+    border: 4px double #b2aeff;
+}
+
+.page-move:hover { color: rgb(125, 170, 185); background-color: rgb(32, 58, 116); }
+.page-move {
+    color: rgb(166, 213, 228);
+    background-color: rgb(57, 98, 189);
+    border: 4px double #b2aeff;
+}
+.page-indicator {
+    color: rgb(137, 154, 231);
+    background-color: rgb(32, 58, 116);
+    border: 4px double #b2aeff;
+}
